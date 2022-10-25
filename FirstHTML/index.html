@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>初めてのウェブサイト</title>
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+    <!-- コメントが書けます。 -->
+    <div class="header">
+        <h1>仲条高幸</h1>
+    </div>
+    <div class="main1">
+        <h2>じゃんけんしようぜ！</h2>
+        <div>
+            <button type="button" onclick='janken("ぐー")'>ぐー</button>
+            <button type="button" onclick='janken("ちょき")'>ちょき</button>
+            <button type="button" onclick='janken("ぱー")'>ぱー</button>
+            <!-- ここに結果を表示させたい -->
+            <div id="janken">
+                <p id="jankenResult"></p>
+            </div>
+        </div>
+        <h3>H3タグは、三番大きな見出しです。</h3>
+        <p>
+            パラグラフタグは、<br />
+            段落として<b>文章</b>を書いていきます。<br />
+            <br />
+            斜体は<i>iタグで囲みます。</i><br />
+            <u>アンダーバーはuタグで可能です。</u>
+        </p>
+    </div>
+    <div class="main2">
+        <ul>
+            <li id="baseball">野球</li>
+            <li>サッカー</li>
+            <li>テニス</li>
+            <li>水泳</li>
+            <li>器械体操</li>
+            <li>バスケットボール</li>
+        </ul>
+    </div>
+    <div class="footer">
+        <a href="https://twitter.com/njn0te" target="_blank">
+            <img src="https://pbs.twimg.com/profile_images/1445610398447640591/jj1iRxy1_400x400.jpg" alt="サイト作成者の画像" height="200px">
+        </a>
+        <p>公式サイトは<a href="https://tsfcm.jp" target="_blank">こちら</a></p>
+    </div>
+</body>
+</html>
